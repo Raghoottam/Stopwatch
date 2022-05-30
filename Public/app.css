@@ -1,10 +1,7 @@
 .container{
-    width: 100vw;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 80rem;
     margin: 0 auto;
     padding: 2rem;
 }
@@ -64,6 +61,12 @@
     padding: 2%;
     justify-content: center;
     display: flex;
+}
+
+#head-text{
+  font-size: 10rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 5px 5px #BABABA;
 }
 
 .footer {
