@@ -65,7 +65,7 @@
 
 #head-text{
   font-size: 10rem;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:'Segoe UI';
   text-shadow: 5px 5px #BABABA;
 }
 
@@ -78,3 +78,18 @@
     text-align: end;
     padding-right: 5%;
   }
+
+  @media (max-width: 500px) { 
+    #stopwatch-time{
+      padding: 1%;
+      justify-content: center;
+      display: flex;
+      font-size: 40px;
+   }
+
+   #head-text{
+    font-size: 40px;
+    font-family:'Segoe UI';
+    text-shadow: 5px 5px #BABABA;
+  }
+}
